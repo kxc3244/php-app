@@ -1,6 +1,6 @@
 <?php
 
-    $spBaseUrl = 'https://mysterious-lowlands-65446.herokuapp.com'; //or http://<your_domain>
+    $spBaseUrl = 'http://mysterious-lowlands-65446.herokuapp.com'; //or http://<your_domain>
 
     $settingsInfo = array (
         'sp' => array (
