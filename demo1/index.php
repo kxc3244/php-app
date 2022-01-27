@@ -136,3 +136,5 @@ if (isset($_SESSION['samlUserdata'])) {
     echo '<p><a href="?sso" >Login</a></p>';
     echo '<p><a href="?sso2" >Login and access to attrs.php page</a></p>';
 }
+
+print $auth->getLastErrorReason();

@@ -46,5 +46,3 @@ TK7N1ZdT1jxjNmhs8SDPQkt5vZHWmCloWjCcrZBHE2MjSXM=
 -----END CERTIFICATE-----',
         ),
     );
-
-    print $auth->getLastErrorReason();
