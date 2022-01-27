@@ -73,7 +73,8 @@ if (isset($_GET['sso'])) {
 
     if (!empty($errors)) {
         echo '<p>',implode(', ', $errors),'</p>';
-        if ($auth->getSettings()->isDebugActive()) {
+        print $auth->getLastErrorReason();
+        if (!$auth->getSettings()->isDebugActive()) {
             echo '<p>'.htmlentities($auth->getLastErrorReason()).'</p>';
         }
     }
