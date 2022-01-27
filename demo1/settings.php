@@ -43,7 +43,6 @@ Uw7wZ66+9VgE1Ii6GrhWDoPaMiL37Fefzl2LZZTrOuRxV29/gCgkAzAtdLgi66KW
 nHq3rWGm3Elg1gd2I6iLHHDLgXo7i0SZd5fZbHNiJer9UswkkDOLeHk4yh94JdoV
 ljBy5iaeab5nscLOZmnSADLYbDaCoBwrzXLOD+8OR8u1xsUd7zi2dKmWdLIzoQU2
 TK7N1ZdT1jxjNmhs8SDPQkt5vZHWmCloWjCcrZBHE2MjSXM=
------END CERTIFICATE-----
-',
+-----END CERTIFICATE-----',
         ),
     );
