@@ -108,7 +108,8 @@ if (isset($_GET['sso'])) {
         echo '<p>Sucessfully logged out</p>';
     } else {
         echo '<p>', htmlentities(implode(', ', $errors)), '</p>';
-        if ($auth->getSettings()->isDebugActive()) {
+        print $auth->getLastErrorReason();
+        if (!$auth->getSettings()->isDebugActive()) {
             echo '<p>'.htmlentities($auth->getLastErrorReason()).'</p>';
         }
     }
