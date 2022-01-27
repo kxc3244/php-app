@@ -11,7 +11,7 @@
             'singleLogoutService' => array (
                 'url' => $spBaseUrl.'/demo1/index.php?sls',
             ),
-            'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:emailAddress',
+            'NameIDFormat' => 'urn:oasis:names:tc:SAML:1.1:nameid-format:email',
         ),
         'idp' => array (
             'entityId' => 'https://app.onelogin.com/saml/metadata/e2c3f3b9-32d6-4700-83a8-525bb336e659',
