@@ -1,6 +1,6 @@
 <?php
 
-    $spBaseUrl = 'http://localhost:8888/php-saml-master'; //or http://<your_domain>
+    $spBaseUrl = 'https://mysterious-lowlands-65446.herokuapp.com'; //or http://<your_domain>
 
     $settingsInfo = array (
         'sp' => array (
